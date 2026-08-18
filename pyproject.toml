@@ -1,0 +1,16 @@
+[project]
+name = "fast-reinforcement-learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "jax[cuda12]",
+    "brax",
+    "mujoco>=3.3.6.dev",
+    "mujoco-mjx",
+    "gymnasium[classic-control]>=1.2.3",
+    "gymnax",
+    "mediapy>=1.2.5",
+    "distrax>=0.1.5",
+]
